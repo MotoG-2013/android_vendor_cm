@@ -377,4 +377,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 -include vendor/cyngn/product.mk
 
+# Chromium Prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
+endif
+
 $(call prepend-product-if-exists, vendor/extra/product.mk)
