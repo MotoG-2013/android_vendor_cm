@@ -151,7 +151,6 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     Eleven \
     LockClock \
-    CMUpdater \
     CMHome \
     CyanogenSetupWizard \
     CMSettingsProvider
